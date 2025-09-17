@@ -13,6 +13,8 @@ html {
   }
     
   .box-1 {
+    width: 42rem;
+    height: 50rem;
     padding: 1rem;
     background-color: #fff;
     text-align: center;    
@@ -28,12 +30,13 @@ html {
   
   .box-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
   }
 
   .box-content {
     margin: 1rem;
+    line-height: 1rem;
   }
 
   .globe img {
@@ -43,30 +46,37 @@ html {
 
   .title h1 {
     font-family: Snell Roundhand, cursive;
-    font-size: 3rem; 
+    font-size: 2.4rem; 
     margin: 0; 
     text-shadow: 0.2rem 0.2rem 0.6rem #888;
     white-space: nowrap;
   }
 
 .subheader {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
     text-align: left; 
     text-decoration: underline;
+    align-items: center;
+    padding-left: 1rem;
   }
 
 .box-main-content {
+    padding-left: 1rem;
     text-align: left;
 }
 
 .first-paragraph {
+    padding-top: 1rem;
     text-align: left;
     color: brown;
     line-height: 1.3rem;
-  }
-  
+
+}
+
+.first-paragraph:hover {
+  color: red;
+}
+
 .first-paragraph::first-letter {
     font-size: 2.5rem;
     line-height: 1rem;
@@ -75,11 +85,12 @@ html {
   
 h3 {
     text-decoration: underline;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .resources-list {
     list-style-type: upper-alpha; 
+    font-size: 0.9rem;
 }
   
 .sub-list-a {
@@ -98,6 +109,8 @@ h3 {
 .schedule-table td {
     border: 0.1rem solid black;
     text-align: left;
+    font-size: 0.9rem;
+    line-height: 0.7rem;
 }
   
 .schedule-table th {
@@ -116,5 +129,17 @@ thead {
 caption {
     text-decoration: underline;
     color: blue;
+    font-size: 0.9rem;
 }
+
+p {
+  font-size: 0.86rem;
+}
+
+footer {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+
 
