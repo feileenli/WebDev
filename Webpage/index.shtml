@@ -10,10 +10,10 @@
     <div class="box-1"> 
         <div class="box-content">
             <header class="box-header">
-                <div class="globe">
+                <div id="globe">
                   <a href="https://www.cs.umd.edu/" target="_blank"><img src="UMDGlobe.gif" alt="UMD Globe"></a>
                 </div>
-                <div class="title">
+                <div id="title">
                   <h1>Department of Computer Science</h1>
                 </div>
             </header>
