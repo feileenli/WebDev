@@ -1,0 +1,1 @@
+Vanilla webpage made from pure HTML and CSS 
