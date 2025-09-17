@@ -1,0 +1,120 @@
+/* Do not remove this rule */
+html {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+    
+  body {  
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+    
+  .box-1 {
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;    
+    border: 0.6rem solid blue;
+    
+    box-shadow:
+      0 0 0 0.82rem antiquewhite,
+      0 0 0 1rem brown,
+      0 0 0 1.15rem antiquewhite,
+      0 0 0 1.3rem brown,
+      0 0 0 2.8rem antiquewhite;
+  }
+  
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box-content {
+    margin: 1rem;
+  }
+
+  .globe img {
+    height: 6rem;
+    width: 7rem;
+  }
+
+  .title h1 {
+    font-family: Snell Roundhand, cursive;
+    font-size: 3rem; 
+    margin: 0; 
+    text-shadow: 0.2rem 0.2rem 0.6rem #888;
+    white-space: nowrap;
+  }
+
+.subheader {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left; 
+    text-decoration: underline;
+  }
+
+.box-main-content {
+    text-align: left;
+}
+
+.first-paragraph {
+    text-align: left;
+    color: brown;
+    line-height: 1.3rem;
+  }
+  
+.first-paragraph::first-letter {
+    font-size: 2.5rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+  
+h3 {
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+.resources-list {
+    list-style-type: upper-alpha; 
+}
+  
+.sub-list-a {
+    list-style-type: circle;
+}
+  
+.sub-list-b {
+    list-style-type: decimal;
+}
+
+.info {
+    color: brown;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 0.1rem solid black;
+    text-align: left;
+}
+  
+.schedule-table th {
+    font-weight: bold;
+}
+
+.schedule-table {
+    border: 0.1rem solid black
+}
+
+thead {
+    background-color: antiquewhite;
+    color: brown;
+}
+
+caption {
+    text-decoration: underline;
+    color: blue;
+}
+
