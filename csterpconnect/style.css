@@ -76,7 +76,7 @@ nav li a.Subscribe {
 }
 
 main {
-    width: 90%;       
+    width: 100%;       
     max-width: 1200px;
     margin: 20px auto;
 }
@@ -145,6 +145,7 @@ form input:valid {
     margin-top: 8px;
     vertical-align: middle;
     width: 30%;
+    height: auto; 
 }
 
 .random-table {
