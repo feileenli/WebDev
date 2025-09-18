@@ -1,0 +1,183 @@
+:root {
+    --my-fav: rgb(246, 201, 255);
+}
+
+body {
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.banner {
+    position: relative;
+    width: 100%; 
+    height: 500px; 
+    overflow: hidden;
+}
+
+.banner-video {
+    position: absolute;
+    top: 35%;          
+    right: 6%;          
+    width: 380px;          
+    height: 215px;        
+    border: none;
+}
+
+
+.banner img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .welcome {
+    color: antiquewhite;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    top: 10%; 
+    left: 4%;
+}
+
+.welcome h2 {
+    font-size: 100px;
+    line-height: 1%;
+}
+
+nav {
+    border: solid 5px black;
+    background-color: antiquewhite;
+    margin-top: 2px;
+    padding: 7px;
+    top: 96px; 
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a.Subscribe {
+    color: black;
+}
+
+main {
+    width: 90%;       
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+article h2 {
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+article p {
+    color: antiquewhite;
+    font-size: large;
+}
+
+section.join {
+    background: black;
+    text-align: center;
+    padding: 60px 20px;
+    color: antiquewhite;
+}
+
+.join h2 {
+    font-size: 25px;
+}
+
+form input {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 4px solid white;
+}
+
+
+nav li a:hover {
+    background-color: var(--my-fav);
+    text-decoration: underline;
+    padding: 3px;
+}
+
+ul li img:hover {
+    position: relative; 
+    top: -8px; 
+}
+
+form input:focus {
+    outline: none;
+    border: 3px solid var(--my-fav);
+}
+
+form input:valid {
+    border: 3px solid var(--my-fav);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.random-table {
+    padding-top: 50px;
+}
+
+table, td, th {
+    border: 1px solid antiquewhite;
+}
+
+tr:nth-child(2n) {
+    background-color: antiquewhite;
+}
+
+tr:nth-child(2n + 1) {
+    color: antiquewhite;
+}
+
+thead {
+    background-color: antiquewhite;
+}
+
+#table-titles {
+    color: black;
+}
+
+.vid {
+    top: 14%;
+    right: 6%;
+    height: 200px;
+    width: 350px;
+}
+
+.modified {
+    color: antiquewhite;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo (1).svg" sizes="96x96" />
+    <title>Feileen</title>
+</head>
+<body>
+    <section class="banner">
+        <img src="data/IMG_5056.png" alt="Feileen Welcome Banner">
+        <div class="welcome">
+            <h2>FEI'S ARCHIVE</h2>
+            <h2>FEI'S ARCHIVE</h2>
+            <h2>FEI'S ARCHIVE</h2>
+            <h2>FEI'S ARCHIVE</h2>
+            <h2>FEI'S ARCHIVE</h2>
+            <h2>FEI'S ARCHIVE</h2>
+        </div>
+        <iframe class="banner-video" src="https://www.youtube.com/embed/CJkGGslFneE?si=SzS1tbcJhW1inCxA?start=10&autoplay=1&mute=1&controls=1" title="YouTube vid"></iframe>
+    </section>
+    
+    <nav class="Main-nav">
+        <ul>
+            <li><a href="" target="_blank">More Pics</a></li>
+            <li><a href="">Writing</a></li>
+            <li><a href="">Etc.</a></li>
+            <li><a href="https://www.instagram.com/feileenli/?hl=en" target="_blank" class="Instagram">Follow Me!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Hey, it's Fei :)</h2>
+            <p>This website is full of cool pics that didn't make the gram, creative writing pieces, music, current reads, 
+                & a buncha other random stuff! 
+            </p>
+        </article>
+        <div class="row">
+            <div class="column">
+              <img src="data/apt.png" >
+              <img src="data/beach.png">
+              <img src="data/blossom.png">
+              <img src="data/drinks.png">
+              <img src="data/fei.png">
+              <img src="data/pier.png">
+            </div>
+            <div class="column">
+                <img src="data/ish.png">
+                <img src="data/vienna.png">
+                <img src="data/anning.png">
+                <img src="data/terps.png">
+            </div>
+        </div>
+        <div class="random-table">
+            <table>
+                <thead>
+                    <tr id="table-titles">
+                        <th>This</th>
+                        <th>Is</th>
+                        <th>A</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Random</td>
+                        <td>Table</td>
+                        <td>Because</td>
+                    </tr>
+                    <tr>
+                        <td>IDK</td> 
+                        <td>What</td>
+                        <td>To</td>
+                    </tr>
+                    <tr>
+                        <td>Use</td>
+                        <td>It</td>
+                        <td>For</td>
+                    </tr>
+                    <tr>
+                        <td>In</td>
+                        <td>My</td>
+                        <td>Project</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <section class="join">
+        <p>Subscribe to my blog and recieve emails whenever I update, hehe.</p>
+        <form>
+            <input type="email" name="email" placeholder="Type Email & Hit Enter">
+        </form>
+    </section>
+
+    <div class="modified">
+        <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+    </div>
+</body>
+</html>
