@@ -20,9 +20,10 @@ body {
     position: absolute;
     top: 35%;          
     right: 6%;          
-    width: 380px;          
-    height: 215px;        
-    border: none;
+    width: 30%;          
+    height: auto;   
+    aspect-ratio: 16/9;   
+    max-width: 380px;  
 }
 
 
@@ -37,46 +38,49 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 10px;
-    top: 10%; 
+    top: 25%; 
     left: 4%;
 }
 
 .welcome h2 {
-    font-size: 100px;
-    line-height: 1%;
+    font-size: clamp(2rem, 12vw, 6rem);
+    line-height: 0;
 }
 
 nav {
-    border: solid 5px black;
+    border: 5px solid black;
     background-color: antiquewhite;
     margin-top: 2px;
-    padding: 7px;
-    top: 96px; 
 }
 
 nav ul {
-    white-space: nowrap;
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 nav li {
-    display: inline-block;
-    width: 30%;
-    font-size: 20px;
+    flex: 1;
+    text-align: center;
+    font-size: clamp(14px, 2vw, 20px);
 }
 
 nav li a {
     text-decoration: none;
     color: black;
+    display: inline;
+    padding: 0;
 }
 
-nav li a.Subscribe {
-    color: black;
+nav li a:hover {
+    background-color: var(--my-fav);
+    text-decoration: underline;
 }
 
 main {
-    width: 100%;       
+    width: 90%;       
     max-width: 1200px;
     margin: 20px auto;
 }
@@ -109,13 +113,6 @@ form input {
     border: 4px solid white;
 }
 
-
-nav li a:hover {
-    background-color: var(--my-fav);
-    text-decoration: underline;
-    padding: 3px;
-}
-
 ul li img:hover {
     position: relative; 
     top: -8px; 
@@ -145,7 +142,6 @@ form input:valid {
     margin-top: 8px;
     vertical-align: middle;
     width: 30%;
-    height: auto; 
 }
 
 .random-table {
